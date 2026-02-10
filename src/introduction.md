@@ -1,5 +1,7 @@
 # Introduction
 
+![image](img/introduction_motor.svg)
+
 STEM is a **S**imulation **T**oolbox for **E**lectric **M**otors written in
 Rust, consisting of multiple crates (packages / libraries) for defining
 electric motors, calculation of their properties and simulation of their
@@ -7,6 +9,7 @@ operating behaviour. This framework offers a huge variety of features, such as:
 - calculate winding factors, resistance, inductance, wire length etc. of
 arbitrary windings,
 - get the leakage inductances for a wide variety of slot geometries,
+- draw the components for visual inspection (see above),
 - define custom magnetic simulation models or use predefined ones to determine
 the torque of a motor,
 - simulate the S1 torque characteristic of a motor using coupled magnetic /
@@ -22,8 +25,8 @@ custom magnets), magnetic / thermal models or even optimization routines.
 
 This book is a tutorial / manual for STEM, showcasing how to use it, its general
 design philosophy, its components and how to extend it. The API documentation
-of the individual crates can be found on [https://docs.rs/]. Where appropriate,
-this book provides links to it.
+of the individual crates can be found on [https://docs.rs/](https://docs.rs/).
+Where appropriate, this book provides links to them.
 
 As of now, all the features hinted at above exist, but most of the ecosystem is
 not yet uploaded to crates.io due to a lack of documentation (and in practice,
