@@ -2,3 +2,6 @@
 title = "STEM - Simulation Toolbox for Electric Motors"
 authors = ["Stefan Mathis"]
 language = "en"
+
+[build]
+build-dir = "book"
