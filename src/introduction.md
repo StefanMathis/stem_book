@@ -2,7 +2,11 @@
 
 ![image](img/introduction_motor.svg)
 
-STEM is a **S**imulation **T**oolbox for **E**lectric **M**otors written in
+> Note:
+> As of Spring 2026, the stem framework and its documentation are under active
+> development. Hence, this book will be expanded substantially over time.
+
+stem is a **S**imulation **T**oolbox for **E**lectric **M**otors written in
 Rust, consisting of multiple crates (packages / libraries) for defining
 electric motors, calculation of their properties and simulation of their
 operating behaviour. This framework offers a huge variety of features, such as:
