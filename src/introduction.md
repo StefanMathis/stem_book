@@ -27,7 +27,7 @@ The individual crates of the ecosystem are designed to be modular and
 extensible. This makes it easy to define your own custom motor components (e.g.
 custom magnets), magnetic / thermal models or even optimization routines.
 
-This book is a tutorial / manual for STEM, showcasing how to use it, its general
+This book is a tutorial / manual for stem, showcasing how to use it, its general
 design philosophy, its components and how to extend it. The API documentation
 of the individual crates can be found on [https://docs.rs/](https://docs.rs/).
 Where appropriate, this book provides links to them.
@@ -62,7 +62,9 @@ interactive evaluation of winding properties.
 ![image](img/three_layers.svg)
 
 
-### Crates belonging to STEM
+### Crates belonging to stem
+
+TODO: List the crates here over time
 
 #### Description layer
 
