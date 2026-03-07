@@ -30,7 +30,8 @@ custom magnets), magnetic / thermal models or even optimization routines.
 This book is a tutorial / manual for stem, showcasing how to use it, its general
 design philosophy, its components and how to extend it. The API documentation
 of the individual crates can be found on [https://docs.rs/](https://docs.rs/).
-Where appropriate, this book provides links to them.
+Where appropriate, this book provides links to them. The book assumes knowledge
+of [Rust](https://rust-lang.org/) and [yaml](https://yaml.org/).
 
 As of now, all the features hinted at above exist, but most of the ecosystem is
 not yet uploaded to crates.io due to a lack of documentation (and in practice,
